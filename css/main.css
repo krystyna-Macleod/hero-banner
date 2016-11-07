@@ -6,3 +6,11 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+.banner {
+  position: absolute;
+}
+
+.img-flex {
+  display: flex;
+}
