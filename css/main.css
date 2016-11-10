@@ -10,17 +10,21 @@ html {
 body {
   display: flex;
   margin: 0;
+  padding: 0;
 }
 
 .banner {
   position: relative;
+  max-height: 500px;
+  overflow: hidden;
+  bottom: 0;
 }
 
 .banner-content {
   padding: 1rem;
   position: relative;
-  z-index: 10;
-  bottom: 0;
+  transform: translate(0%);
+  z-index: 2;
 }
 
 .img-flex {
@@ -28,8 +32,7 @@ body {
   position: absolute;
   left: 10px;
   width: 100%;
-  max-height: 500px;
-  overflow: hidden;
+  z-index: 1;
 }
 
 h2 {
