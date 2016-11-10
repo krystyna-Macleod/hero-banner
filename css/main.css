@@ -18,7 +18,6 @@ body {
 }
 
 .banner-content {
-  float: left;
   position: absolute;
   text-align: left;
   overflow: hidden;
