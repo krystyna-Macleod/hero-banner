@@ -14,25 +14,29 @@ body {
 
 .banner {
   position: relative;
-  bottom: 1rem;
 }
 
 .banner-content {
-  position: absolute;
-  text-align: left;
-  overflow: hidden;
+  padding: 1rem;
+  position: relative;
+  z-index: 10;
+  bottom: 0;
 }
 
 .img-flex {
   display: block;
-  text-align: left;
+  position: absolute;
+  left: 10px;
   width: 100%;
   max-height: 500px;
+  overflow: hidden;
 }
 
 h2 {
   font-size: 4rem;
   background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  margin: 0;
 }
 
 p {
